@@ -10,9 +10,6 @@ session_start();
 	<title>New Data</title>
 </head>
 <body>
-
-	<br>
-	<br>
 	<center>
 		<h3>CREATE USER</h3>
 		<table>
@@ -62,9 +59,8 @@ session_start();
 				<td>Genre Film</td>
 				<td>
 					<input type="checkbox" name="genre_film[]" value="horror">Horror
-					<input type="checkbox" name="genre_film[]" value="SCI-Fi">SCI-Fi
 					<input type="checkbox" name="genre_film[]" value="action">Action
-					<input type="checkbox" name="genre_film[]" value="Kartun">Kartun
+					<input type="checkbox" name="genre_film[]" value="kartun">Kartun
 					<input type="checkbox" name="genre_film[]" value="anime">Anime
 				</td>
 			</tr>

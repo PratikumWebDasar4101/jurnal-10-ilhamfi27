@@ -56,9 +56,6 @@ session_start();
 					<input type="checkbox" name="hobby[]" value="Menulis" <?php echo in_array("Menulis", $hobby) ? "checked" : ""; ?>>Menulis
 					<input type="checkbox" name="hobby[]" value="Membaca" <?php echo in_array("Membaca", $hobby) ? "checked" : ""; ?>>Membaca
 					<input type="checkbox" name="hobby[]" value="Makan" <?php echo in_array("Makan", $hobby) ? "checked" : ""; ?>>Makan
-					<input type="checkbox" name="hobby[]" value="Tidur" <?php echo in_array("Tidur", $hobby) ? "checked" : ""; ?>>Tidur
-					<input type="checkbox" name="hobby[]" value="Belajar" <?php echo in_array("Belajar", $hobby) ? "checked" : ""; ?>>Belajar<br>
-					<input type="checkbox" name="hobby[]" value="Berenang" <?php echo in_array("Berenang", $hobby) ? "checked" : ""; ?>>Berenang
 					<input type="checkbox" name="hobby[]" value="Basket" <?php echo in_array("Basket", $hobby) ? "checked" : ""; ?>>Basket
 					<input type="checkbox" name="hobby[]" value="Badminton" <?php echo in_array("Badminton", $hobby) ? "checked" : ""; ?>>Badminton
 					<input type="checkbox" name="hobby[]" value="Nonton" <?php echo in_array("Nonton", $hobby) ? "checked" : ""; ?>>Nonton
@@ -71,9 +68,9 @@ session_start();
 						$film = explode(", ", $data['genre_film']);
 					?>
 					<input type="checkbox" name="genre_film[]" value="horror" <?php echo in_array("horror", $film) ? "checked" : ""; ?>>Horror
-					<input type="checkbox" name="genre_film[]" value="anime" <?php echo in_array("anime", $film) ? "checked" : ""; ?>>Anime
 					<input type="checkbox" name="genre_film[]" value="action" <?php echo in_array("action", $film) ? "checked" : ""; ?>>Action
-					<input type="checkbox" name="genre_film[]" value="drama" <?php echo in_array("drama", $film) ? "checked" : ""; ?>>Drama
+					<input type="checkbox" name="genre_film[]" value="kartun" <?php echo in_array("kartun", $film) ? "checked" : ""; ?>>Kartun
+					<input type="checkbox" name="genre_film[]" value="anime" <?php echo in_array("anime", $film) ? "checked" : ""; ?>>Anime
 				</td>
 			</tr>
 			<tr>
@@ -82,10 +79,10 @@ session_start();
 					<?php 
 						$wisata = explode(", ", $data['tempat_wisata']);
 					?>
-					<input type="checkbox" name="tempat_wisata[]" value="bali" <?php echo in_array("bali", $wisata) ? "checked" : ""; ?>>Bali
-					<input type="checkbox" name="tempat_wisata[]" value="tanjung_selor" <?php echo in_array("tanjung_selor", $wisata) ? "checked" : ""; ?>>Tanjung Selor
 					<input type="checkbox" name="tempat_wisata[]" value="jakarta" <?php echo in_array("jakarta", $wisata) ? "checked" : ""; ?>>Jakarta
+					<input type="checkbox" name="tempat_wisata[]" value="bali" <?php echo in_array("bali", $wisata) ? "checked" : ""; ?>>Bali
 					<input type="checkbox" name="tempat_wisata[]" value="lombok" <?php echo in_array("lombok", $wisata) ? "checked" : ""; ?>>Lombok
+					<input type="checkbox" name="tempat_wisata[]" value="tanjung_selor" <?php echo in_array("tanjung_selor", $wisata) ? "checked" : ""; ?>>Tanjung Selor
 				</td>
 			<tr>
 			<tr>
